@@ -1,0 +1,25 @@
+!#define fg !#0066FF
+!#define bg #000000
+
+!#define fg rgb:33/89/FF
+#define fg rgb:1E/77/E2
+#define bg rgb:19/19/19
+#define sn rgb:15/15/EE
+
+xterm*faceName: Monospace
+xterm*faceSize: 10
+
+!xterm*foreground: rgb:66/66/DD
+!xterm*background: rgb:00/00/00
+xterm*foreground: fg
+xterm*background: bg
+
+URxvt.transparent:true
+URxvt.scrollBar: false
+URxvt.shading: shade
+URxvt.background: bg
+URxvt.foreground: fg
+URxvt.font: xft:Monospace:size=9
+!URxvt.font: xft:LiberationMono:size=9
+!URxvt.font: xft:ProFont:size=7
+URxvt.boldFont: xft:Monospace-Bold:size=9
